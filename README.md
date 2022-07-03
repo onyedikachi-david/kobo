@@ -1,3 +1,14 @@
+# Kobo
+
+A decentralized peer to peer borrowing and lending community platform; where someone creates a pool, specifying the number of persons that will join and how long the pool will be. Now at the end of each cycle, a participant can ask for funds, and the whole will be given to the individual, then the next round, then another payment phase.
+
+https://youtu.be/vTRqbtKljDE
+
+
+https://user-images.githubusercontent.com/51977119/177060456-4b8dc64b-e1a8-4c0b-9a60-97c40ab3b295.mp4
+
+
+
 # React + Reach Application Scaffold
 
 ## What is it? 
