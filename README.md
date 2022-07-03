@@ -6,11 +6,25 @@ A decentralized peer to peer borrowing and lending community platform; where som
 
 ## Only important files, others are normal React files and folders.
 
-/src
---/build  (compiled Reac-lang file lives here)
---/utils/index.rsh (Reach-lang contract file)
-
-/Test-with-PiplineUI (A web based test for the Dapp.)
+```
+src
+│  
+│   
+│
+└───build
+│   │   index.main.mjs (compiled Reac-lang file lives here)
+│   
+│   
+│  
+│
+│      
+│  
+│   
+└───utils
+│    │   index.rsh (Reach-lang contract file lives here)
+│    
+Test-with-PiplineUI (A web based test for the Dapp.)
+```
 
 ![kobo](https://user-images.githubusercontent.com/51977119/177060749-7a54b19e-b8f6-41d7-84bd-2a9f6a29f87d.png)
 
