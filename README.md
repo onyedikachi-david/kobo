@@ -3,6 +3,11 @@
 A decentralized peer to peer borrowing and lending community platform; where someone creates a pool, specifying the number of persons that will join and how long the pool will be. Now at the end of each cycle, a participant can ask for funds, and the whole will be given to the individual, then the next round, then another payment phase.![kobo](https://user-images.githubusercontent.com/51977119/177060749-7a54b19e-b8f6-41d7-84bd-2a9f6a29f87d.png)
 
 
+https://user-images.githubusercontent.com/51977119/177060881-9fb3b56b-11d2-4cb7-8b9f-862c33148a21.mp4
+
+
+
+
 https://youtu.be/vTRqbtKljDE
 
 
