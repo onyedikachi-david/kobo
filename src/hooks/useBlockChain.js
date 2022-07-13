@@ -10,8 +10,8 @@ import { ALGO_MyAlgoConnect as MyAlgoConnect } from '@reach-sh/stdlib';
 
 
 
-const contractABI = abi.abi;
-const fundABI = fundabi.abi;
+// const contractABI = abi.abi;
+// const fundABI = fundabi.abi;
 const contractAddress = "0xC3760F3E4aD004BdB14E7D161BdB276a5eeE670c";
 const ethereumChainDetails = {
   chainName: "Polygon Testnet Mumbai",
