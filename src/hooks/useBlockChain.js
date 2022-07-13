@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import abi from "../utils/CommunityFundFactory.json";
-import fundabi from "../utils/CommunityFund.json";
+// import abi from "../utils/CommunityFundFactory.json";
+// import fundabi from "../utils/CommunityFund.json";
 import { ethers } from "ethers";
 import Web3 from 'web3'
 import moment from "moment";
