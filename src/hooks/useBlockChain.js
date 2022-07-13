@@ -202,7 +202,7 @@ const useBlockChain = () => {
 
     const communityFundFactory = new ethers.Contract(
       contractAddress,
-      contractABI,
+      // contractABI,
       signer
     );
 
@@ -261,7 +261,7 @@ const useBlockChain = () => {
   const pledgeCollateral = async (address, amount, requiredNumberOfParticipants) => {
     const provider = new ethers.providers.Web3Provider(window.ethereum);
     const signer = provider.getSigner();
-    const communityFund = new ethers.Contract(address, fundABI, signer);
+    const communityFund = new ethers.Contract(address, signer);
 
     const collateral = parseInt(parseInt(amount) * parseInt(requiredNumberOfParticipants) * 1.2).toFixed(0);
     const collateralReceipt = await communityFund.collateral({ value: collateral });
@@ -273,7 +273,7 @@ const useBlockChain = () => {
 
     const provider = new ethers.providers.Web3Provider(window.ethereum);
     const signer = provider.getSigner();
-    const communityFund = new ethers.Contract(address, fundABI, signer);
+    const communityFund = new ethers.Contract(address, signer);
 
     const depositReceipt  = await communityFund.deposit({ value: parseInt(data.amount) });
     console.debug("depositReceipt",depositReceipt);
@@ -290,7 +290,7 @@ const useBlockChain = () => {
 
       const communityFundFactory = new ethers.Contract(
         contractAddress,
-        contractABI,
+        // contractABI,
         provider
       );
 
@@ -325,7 +325,7 @@ const useBlockChain = () => {
 
   const getFundData = async (address) => {
     const provider = new ethers.providers.Web3Provider(window.ethereum);
-    const communityFund = new ethers.Contract(address, fundABI, provider);
+    const communityFund = new ethers.Contract(address, provider);
 
     const name = await communityFund.name();
     const requiredNbOfParticipants = await communityFund.requiredNbOfParticipants();
