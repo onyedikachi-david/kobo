@@ -168,18 +168,19 @@ const Home = (props) => {
               </div>
             </>
           ) : (
-            <div className={classes.NoFundsContainer}>
-              <Typography>{chainConnected ? "No Funds Found" :
-                <>
-                  Our contracts works on Algorand Testnet.
-                  <br/>
-                  Please switch to Algorand Testnet to see the funds.
-                  <br/>
-                  <Button size="small" variant="outlined" fullWidth position="center" onClick={switchEthereumChain}>
-                    Switch Network
-                  </Button>
-                </>}</Typography>
-            </div>
+            // <div className={classes.NoFundsContainer}>
+            //   <Typography>{chainConnected ? "No Funds Found" :
+            //     <>
+            //       Our contracts works on Algorand Testnet.
+            //       <br/>
+            //       Please switch to Algorand Testnet to see the funds.
+            //       <br/>
+            //       <Button size="small" variant="outlined" fullWidth position="center" onClick={switchEthereumChain}>
+            //         Switch Network
+            //       </Button>
+            //     </>}</Typography>
+            // </div>
+            <></>
           )}
         </div>
       </Container>
