@@ -351,10 +351,10 @@ const useBlockChain = () => {
     }
   };
 
-  // useEffect(() => {
+  useEffect(() => {
   //   checkIfWalletIsConnected();
   //   getContracts();
-  // }, [chainConnected]);
+  }, [chainConnected]);
 
   return {
     allFunds,
