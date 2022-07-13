@@ -141,7 +141,7 @@ const useBlockChain = () => {
       //Inititate Kobo Fund connection
       console.log("Connected", acc.networkAccount.addr);
       setCurrentAccount(acc.networkAccount.addr);
-      getContracts();
+      // getContracts();
 
     } catch (error) {
       console.log(error);
